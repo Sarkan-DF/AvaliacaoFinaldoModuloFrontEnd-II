@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .corFundo {
   background-color: #d3d3d3;
 }
@@ -19,15 +24,30 @@
     transform: scale(1);
   }
 
-  100%{
+  100% {
     transform: scale(1.05);
   }
 }
 
-button:hover{
+button:hover {
   animation-name: animeButton;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+table, thead, tr, td, th{
+  border-collapse: collapse;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+}
+
+.usuario{
+  text-align: right;
+}
+
+.alerta2{
+  right: 35%; 
 }
