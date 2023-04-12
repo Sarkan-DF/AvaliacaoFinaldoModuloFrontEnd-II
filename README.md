@@ -9,6 +9,8 @@ Usei HTML, CSS, JavaScrip e BootsTrap, como a proposta era usar bastante BootsTr
 ### Link para o Projeto: <>
 
 # Layout mobile
+![image](https://user-images.githubusercontent.com/63614609/231506384-077dcac0-3e30-4ec7-9318-e455cdf02505.png)
+![image](https://user-images.githubusercontent.com/63614609/231506666-df45032e-c9e1-4f4d-8b73-1322919e13d3.png)
 
 # Layout web
 
