@@ -46,37 +46,37 @@ function saveOnStorage() {
 }
 
 function renderTabela() {
-    table.innerHTML = "";
-    loggedUser.recados.map((user, index) => {
-        const tr = document.createElement("tr");
-        const td1 = document.createElement("td");
-        const td2 = document.createElement("td");
-        const td3 = document.createElement("td");
-        const td4 = document.createElement("td");
-        const deleteButton = document.createElement("button");
-        const editButton = document.createElement("button");
+  table.innerHTML = "";
+  loggedUser.recados.map((user, index) => {
+    const tr = document.createElement("tr");
+    const td1 = document.createElement("td");
+    const td2 = document.createElement("td");
+    const td3 = document.createElement("td");
+    const td4 = document.createElement("td");
+    const deleteButton = document.createElement("button");
+    const editButton = document.createElement("button");
 
-        td1.setAttribute("scope", "row");
-        deleteButton.setAttribute("onClick", `deleteRecado(${index})`);
-        editButton.setAttribute("onClick", `editaRecado(${index})`);
-        editButton.setAttribute("class", "btn btn-success btn-sm");
-        deleteButton.setAttribute("class", "btn btn-danger btn-sm mx-1");
+    td1.setAttribute("scope", "row");
+    deleteButton.setAttribute("onClick", `deleteRecado(${index})`);
+    editButton.setAttribute("onClick", `editaRecado(${index})`);
+    editButton.setAttribute("class", "btn btn-success btn-sm");
+    deleteButton.setAttribute("class", "btn btn-danger btn-sm mx-1");
 
-        tr.appendChild(td1);
-        tr.appendChild(td2);
-        tr.appendChild(td3);
-        tr.appendChild(td4);
-        td4.appendChild(deleteButton);
-        td4.appendChild(editButton);
+    tr.appendChild(td1);
+    tr.appendChild(td2);
+    tr.appendChild(td3);
+    tr.appendChild(td4);
+    td4.appendChild(deleteButton);
+    td4.appendChild(editButton);
 
-        td1.innerHTML = index + 1;
-        td2.innerHTML = user.descricaoRecado;
-        td3.innerHTML = user.detalhamentoRecado;
-        deleteButton.innerHTML = "Apagar";
-        editButton.innerHTML = "Editar";
-        table.appendChild(tr);
-    });
-};
+    td1.innerHTML = index + 1;
+    td2.innerHTML = user.descricaoRecado;
+    td3.innerHTML = user.detalhamentoRecado;
+    deleteButton.innerHTML = "Apagar";
+    editButton.innerHTML = "Editar";
+    table.appendChild(tr);
+  });
+}
 
 function deleteRecado(index) {
   loggedUser.recados.splice(index, 1);
@@ -96,7 +96,7 @@ function editaRecado(index) {
 
 function logout() {
   sessionStorage.removeItem("loggedUser");
-  window.location.href = "loginCadastro.html";
+  window.location.href = "index.html";
 }
 
 function mostraUsuario() {
