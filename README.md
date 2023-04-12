@@ -21,3 +21,7 @@ Usei HTML, CSS, JavaScrip e BootsTrap, como a proposta era usar bastante BootsTr
 ## Front end
 * HTML / CSS / JS;
 * BootsTrap;
+
+# Autor
+
+Igor Matos https://www.linkedin.com/in/igor-matos-22815b98/
