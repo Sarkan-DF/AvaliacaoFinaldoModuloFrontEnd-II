@@ -6,7 +6,7 @@ Ele insere o recado com descrição e pode ser editado e apagado.
 
 Usei HTML, CSS, JavaScrip e BootsTrap, como a proposta era usar bastante BootsTrap para conhecermos a documentação.
 
-### Link para o Projeto: <https://avaliacao-finaldo-modulo-programacao-front-end-ii.vercel.app/>
+### Link para o Projeto: <>
 
 # Layout mobile
 ![image](https://user-images.githubusercontent.com/63614609/231506384-077dcac0-3e30-4ec7-9318-e455cdf02505.png)
